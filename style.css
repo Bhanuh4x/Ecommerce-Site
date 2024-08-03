@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+a{
+   color: rgb(0, 0, 0);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+.navbar{
+    padding-top: 4px;
+    width: 100vw;
+    height: 8vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 99;
+    background-color: rgb(255, 255, 255);
+}
+ul{ 
+    width: 450px;
+    height: 7vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li{
+    cursor: pointer;
+    display: inline;
+    font-size: 16px;
+    transition: all 0.19s linear;
+    
+}
+.name{
+    display: flex;
+    align-items: center;
+   cursor: pointer;
+    gap: 3px;
+   
+}
+#aa1{
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#a1{
+   color: crimson;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+}
+.name img{
+    width: 40px;
+    height: 35px;
+
+}
+.icons{
+    
+    font-size: 21px;
+   display: flex;
+  
+   gap: 40px;
+   transition: all;
+   transition-duration: 0.4s;
+   transition-timing-function: ease-in-out;
+  
+
+  
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 100vw;
+    padding-top: 8vh;
+   
+
+}
+.left{
+    
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    width: 40vw;
+    gap: 4px;
+
+}
+.left h1{
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.left span{
+    letter-spacing: 2px;
+    color: crimson;
+    font-weight: 500;
+    font-size: 18px;
+}
+.left #a2{
+    color: gray;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+.left button{
+    cursor: pointer;
+    margin-top: 15px;
+    width: 170px;
+    height: 40px;
+    background-color: crimson;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 540;
+    font-size: 15px;
+    letter-spacing: 1.6px;
+    border: 0px;
+    transition: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.left button i{
+    font-size: 13px;
+    padding-left: 5px;
+}
+.right{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.right #model{
+    
+width: 605px;
+filter: drop-shadow(0 0 40rem crimson);
+
+
+
+}
+.right #text{
+    width: 700px;
+    top: 300px;
+    right: -50px;
+    transition: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    position: absolute;
+    transform: rotate(-20deg);
+}
+.navbar ul li:hover{
+    transform: scale(1.1);
+    color: crimson;
+}
+.icons i:hover{
+    transform: scale(1.1);
+    color: crimson;
+    cursor: pointer;
+}
+.left button:hover{
+    background-color: rgb(200, 15, 52);
+   
+}
+.content2{
+   padding-top: 8vh;
+    width: 100vw;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+   
+}
+.heading{
+    margin-top: 20px;
+    display: flex;
+    gap: 7px;
+    width: 360px;
+    
+    
+  
+}
+.content2 .heading{
+   
+    width: 290px;
+}
+.heading h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 33px;
+
+}
+#ab1{
+    color: crimson;
+}
+
+.box{
+    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+
+    
+}
+.content2 img{
+    width: 290px;
+    
+}
+.slot{
+   cursor: pointer;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    transition: all;
+    transition-duration: 0.4s;
+    transition-timing-function: all ease;
+    
+
+   
+}
+.star{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.slot span{
+    padding-left: 5px;
+}
+
+
+.slot:hover{
+    transform: scale(0.9);
+    box-shadow: #32325d40 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 8px;
+}
+.rating i:hover{
+color: rgb(255, 0, 144) ;
+
+}
+.like:hover{
+    color: red;
+}
+.right #text:hover{
+   width: 740px;
+    
+    cursor: pointer;
+}
+.content3{
+    padding-top: 8vh;
+    width: 100vw;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+.content3 .heading{
+   
+    width: 176px;
+}
+.brands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.brands img{
+    width: 110px;
+    filter: grayscale(100);
+    transition: all 0.3s linear;
+
+}
+.brands img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+footer{
+    width: 100vw;
+    height: 3vh;
+    color: white;
+    background-color: black;
+}
+.last{
+   text-align: center;
+    gap: 50px;
+   font-size: 16px;
+  
+ 
+}
+.last p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1.5px;
+}
+.last i{
+   color: red;
+}
